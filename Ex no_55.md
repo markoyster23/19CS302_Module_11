@@ -1,26 +1,32 @@
-# EX 55 C program to find a square of number using function with arguments without return type.
-## DATE:
-## AIM:
-To write a C program to find a square of number using function with arguments without return type.
-
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
-
+EX NO 11A : C PROGRAM TO PRESS ANY CHARACTER AND FIND ITS ASCII 
+VALUE 
+ 
+AIM: 
+To write a c program to press any character and find its ASCII value. 
+ 
+ALGORITHM: 
+1. Start. 
+2. Define a variables. 
+3. Write a c program to press any character and find its ASCII value. 
+4. Read the value using scanf. 
+5. Ask the user to make an input. 
+6. Print out the answer. 
+7. End.
 ## Program:
 ```
-/*
-C program to find a square of number using function with arguments without return type.
-Developed by: 
-RegisterNumber:  
-*/
+#include<stdio.h> 
+int main() 
+{ 
+char a; 
+scanf("%c",&a); 
+int c=(int) a; 
+printf("You Pressed %c and its ASCII Value is %d",a,c); 
+ 
+}
 ```
 
 ## Output:
-
+YOU Pressed A and its ASCII VAlue is 65
 
 
 ## Result:
